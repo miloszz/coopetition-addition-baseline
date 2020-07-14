@@ -8,6 +8,7 @@ def predict(data):
     """ get two colums from `df` and returns the predicted ouput as a column (pd.Series)
     TODO: modify it
     """
+    print(data)
     result = data['1K-blocks'] - data['Used']
     return result
 
